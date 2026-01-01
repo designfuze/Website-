@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta Tags -->
+  <title>Design Fuze | Digital Creative Agency</title>
+  <meta name="description" content="Design Fuze is a digital creative agency. Our website is under construction. Contact us for design, branding, and digital solutions." />
+  <meta name="keywords" content="Design Fuze, digital agency, creative agency, branding, web design, graphic design" />
+  <meta name="author" content="Design Fuze" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Design Fuze | Digital Creative Agency" />
+  <meta property="og:description" content="We are building something great. Get in touch with Design Fuze for creative and digital solutions." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Loader -->
+  <div id="loader">
+    <div class="logo">Design Fuze</div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container hidden">
+    <h1>Design Fuze</h1>
+    <p class="tagline">Digital Creative Agency</p>
+
+    <div class="box">
+      <h2>Website Under Construction</h2>
+      <p>
+        We are working on something great.  
+        Our website will be live very soon.
+      </p>
+      <span class="note">We’ll be back shortly 🚀</span>
+
+      <div class="contact">
+        <a
+          href="https://wa.me/918084945254?text=Hello%20Design%20Fuze,%20I%20want%20to%20start%20my%20journey%20with%20you"
+          target="_blank"
+        >
+          WhatsApp Us
+        </a>
+        <a href="mailto:designfuze@gmail.com">
+          Email Us
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp Button -->
+  <a
+    href="https://wa.me/918084945254?text=Hello%20Design%20Fuze,%20I%20want%20to%20start%20my%20journey%20with%20you"
+    class="whatsapp-float"
+    target="_blank"
+    aria-label="Chat on WhatsApp"
+  >
+    💬
+  </a>
+
+  <!-- Floating Call Button -->
+  <a
+    href="tel:+918084945254"
+    class="call-float"
+    aria-label="Call Design Fuze"
+  >
+    📞
+  </a>
+
+  <script>
+    window.onload = function () {
+      setTimeout(function () {
+        document.getElementById("loader").style.display = "none";
+        document.querySelector(".container").classList.remove("hidden");
+      }, 1500);
+    };
+  </script>
+
+</body>
+</html>
